@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Us</title>
+        <link rel="stylesheet" type="text/css" href="css/restaurantStyle.css">
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans">
+        <script type="text/JavaScript" src="restaurantScript.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>Food For You</h1>
+
+        </header>
+        <hr />
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="theMenu.html">Menu</a>
+            </nav>
+        <hr />
+        <div class="container">
+            <form name="makeContact" onsubmit="return validateContact();">
+                Name: <br /><input type="text" name="customerName" id="customerName"/><br />
+                Email: <br /><input type="text" name="customerEmail" id="customerEmail"/><br />
+                
+                Phone: <br /><input type="text" name="customerPhone" id="phoneNumber"/><br />
+                
+                Reason for Inquiry: <br /><select name="reason" id="inquiry">
+                    <option value="catering">Catering</option>
+                    <option value="privateParty">Private Party</option>
+                    <option value="feedback">Feedback</option>
+                    <option value="other">Other</option>
+            
+                </select><br />
+                Additional Information: <br /><textarea name="moreInput"></textarea><br />
+                <button type="submit" id="submitButton" class="btn btn-default">Send Request</button>
+            </form>
+        </div>
+        <script src="js/jquery-3.3.1.min.js"></script>
+       <script src="js/popper.min.js"></script>
+       <script src="js/bootstrap.min.js"></script> 
+        <footer>
+           <p>456 No Name St, Milwaukee, WI, 53202</p><br />
+           <p>414-555-6666</p>
+        </footer>
+    
+    </body>
+
+
+
+</html>

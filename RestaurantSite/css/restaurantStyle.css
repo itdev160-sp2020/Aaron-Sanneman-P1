@@ -1,0 +1,50 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: lightgrey;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.theList {
+    color: red;
+}
+
+header {
+    text-align: center;
+    color: red;
+    background-color: lightgreen;
+    
+}
+
+nav {
+    text-align: center;
+    padding-right: 30px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#customerName {
+    margin-bottom: 3px;
+}
+
+#customerEmail {
+    margin-bottom: 3px;
+}
+
+#phoneNumber {
+    margin-bottom: 3px;
+}
+
+#inquiry {
+    margin-bottom: 3px;
+}
+h3 {
+    color: orange;
+}
